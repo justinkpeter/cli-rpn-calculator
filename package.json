@@ -1,0 +1,29 @@
+{
+  "name": "cli-rpn-calculator",
+  "version": "1.0.0",
+  "description": "command-line reverse polish notation (RPN) calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rm -rf dist/ && tsc && node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinkpeter/cli-rpn-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinkpeter/cli-rpn-calculator/issues"
+  },
+  "homepage": "https://github.com/justinkpeter/cli-rpn-calculator#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.4",
+    "ts-node": "^10.9.1"
+  }
+}
